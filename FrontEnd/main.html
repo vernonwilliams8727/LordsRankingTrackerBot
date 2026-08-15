@@ -10,11 +10,36 @@
         <div class="Banner">
             <div class="BannerLogo">
                 
+                
             </div>
             <div class = "BannerName">
             </div>
             <div class = "BannerButtons">
-
+                <select>
+                    <option value="events/ChaosArena/chaosArena.html">Chaos Arena</option>
+                    <option value="events/DragonArena/dragonArena.html">Dragon Arena</option>
+                    <option value="events/GuildBash/guildBash.html">Guild Bash</option>
+                    <option value="events/GuildDual/guildDual.html">Guild Dual</option>
+                    <option value="events/GuildExpedition/guildExpedition.html">Guild Expedition</option>
+                    <option value="events/GuildFest/guildFest.html">Guild Fest</option>
+                    <option value="events/GuildShowdown/guildShowdown.html">Guild Showdown</option>
+                    <option value="events/KVK/kvk.html">KVK</option>
+                    <option value="events/WOW/wow.html">WOW</option>
+                </select>
+                <script>
+                    const dropdown = document.getElementByID('pageNavigator');
+                    dropdown.AddEventListener('change', function(){
+                        if (this.value){
+                            window.location.href = this.value;
+                        }
+                    });
+                </script>
+                <select>
+                    <option value="">Might</option>
+                    <option value="">Kills</option>
+                    <option values="">Gifts</option>
+                    <option value="">News</option>
+                </select>
             </div>
         </div>
 

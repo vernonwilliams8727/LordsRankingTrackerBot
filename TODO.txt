@@ -15,6 +15,6 @@
 ---1.Might
 ---2.Kills
 ---3.Monsters
----4.Events 
+---4.News 
 
 4. 
