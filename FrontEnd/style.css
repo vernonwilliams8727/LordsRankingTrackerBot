@@ -1,0 +1,130 @@
+/*MAIN BODY STYLING*/
+
+
+/*BANNER*/
+
+.Banner{
+
+}
+
+.BannerLogo{
+
+}
+
+.BName{
+
+}
+
+.BButtons{
+
+}
+
+
+
+
+
+
+
+
+/*DROP DOWN MENU BELOW*/
+
+ul.Drop {
+    margin-top: 10px;
+    width: 30%;
+    max-width: 300px;
+    color: #353b3F;
+    position: relative;
+    cursor: pointer;
+}
+
+ul.Drop li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.Drop .subDrop {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: #228B22;
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: all .3s ease;
+}
+
+.Drop .subDrop li {
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: background .2s ease;
+}
+
+a:link{
+    color: #000000
+}
+
+a:visited{
+    color: #000000
+}
+
+
+.Drop .subDrop li:nth-child(1):hover {
+    background-color: #65D076;
+}
+
+.Drop .subDrop li:nth-child(2):hover {
+    background-color: #4B82FF;
+}
+
+.Drop .subDrop li:nth-child(3):hover {
+    background-color: #42B3DB;
+}
+
+.Drop .subDrop li:nth-child(4):hover {
+    background-color: #FA7E91;
+}
+
+.Drop .subDrop li:nth-child(5):hover {
+    background-color: #A073FF;
+}
+
+.Drop .subDrop li:nth-child(6):hover {
+    background-color: #449df7;
+}
+
+.Drop .subDrop li:nth-child(7):hover {
+    background-color: #af0505;
+}
+
+.Drop .subDrop li:nth-child(8):hover {
+    background-color: #da03da;
+}
+
+.Drop .subDrop li:nth-child(9):hover {
+    background-color: #00ba00;
+}
+
+.Drop .subDrop li:nth-child(10):hover {
+    background-color: #4200d0;
+}
+
+
+.Drop img {
+    width: 1.1rem;
+    transition: transform .2s ease;
+}
+
+.Drop:hover img {
+    transform: rotate(180deg);
+}
+
+.Drop:hover .subDrop {
+    top: 100%;
+    opacity: 1;
+    pointer-events: all;
+}
