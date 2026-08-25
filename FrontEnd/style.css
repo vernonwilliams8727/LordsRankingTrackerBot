@@ -1,25 +1,70 @@
 /*MAIN BODY STYLING*/
 
+.Main{
+    background-color: gray;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial sans-serif;
+    color: black;
+}
 
 /*BANNER*/
 
 .Banner{
-
+    width: 100vw;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    background-color: rgb(81, 0, 0);
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 .BannerLogo{
+    min-width: 0;
+    min-height: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+.BannerLogo img{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
 
 }
 
 .BName{
+    display: flex;
+    min-width: 0;
+    min-height: 0;
+    align-items: center;
+    justify-content: center;
+}
 
+.BName h1{
+    margin: 0;
+    font-size: clamp(1rem, 3vw, 2rem);
 }
 
 .BButtons{
+    min-width: 0;
+    min-height: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: transparent;
+    gap: 0.5rem;
+    padding: 0;
 
 }
 
+.BStats{
 
+}
 
 
 
@@ -29,8 +74,7 @@
 /*DROP DOWN MENU BELOW*/
 
 ul.Drop {
-    margin-top: 10px;
-    width: 30%;
+    margin-top: 0px;
     max-width: 300px;
     color: #353b3F;
     position: relative;
@@ -128,3 +172,17 @@ a:visited{
     opacity: 1;
     pointer-events: all;
 }
+
+
+.MainPage{
+
+}
+
+.Information{
+
+}
+
+.MainLogo{
+
+}
+
