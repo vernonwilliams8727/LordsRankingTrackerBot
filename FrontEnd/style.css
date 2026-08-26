@@ -15,8 +15,8 @@
     width: 100vw;
     height: 20vh;
     display: grid;
-    grid-template-columns: 30% 40% 30%;
-    background-color: rgb(81, 0, 0);
+    grid-template-columns: 20% 60% 20%;
+    background-color: rgb(59, 0, 99);
     padding: 5px;
     box-sizing: border-box;
 }
@@ -43,6 +43,8 @@
     min-height: 0;
     align-items: center;
     justify-content: center;
+    background-color: black;
+    color: white;
 }
 
 .BName h1{
@@ -54,8 +56,9 @@
     min-width: 0;
     min-height: 0;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 20% auto auto;
     align-items: center;
+    justify-content: right;
     background-color: transparent;
     gap: 0.5rem;
     padding: 0;
@@ -63,6 +66,8 @@
 }
 
 .BStats{
+    background-color: black;
+    color: white;
 
 }
 
@@ -76,9 +81,14 @@
 ul.Drop {
     margin-top: 0px;
     max-width: 300px;
-    color: #353b3F;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
     position: relative;
     cursor: pointer;
+    display: grid;
+    grid-template-columns: 20% 80% auto;
 }
 
 ul.Drop li {
@@ -175,11 +185,17 @@ a:visited{
 
 
 .MainPage{
-
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
 }
 
 .Information{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2px;
 }
 
 .MainLogo{
